@@ -1,0 +1,8 @@
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\bin\Debug\TestingCodingExercise.exe.config
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\bin\Debug\TestingCodingExercise.exe
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\bin\Debug\TestingCodingExercise.pdb
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\obj\Debug\TestingCodingExercise.csprojResolveAssemblyReference.cache
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\obj\Debug\TestingCodingExercise.exe
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\obj\Debug\TestingCodingExercise.pdb
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\bin\Debug\nunit.framework.dll
+C:\Code\Vice\TestingCodingExercise\TestingCodingExercise\bin\Debug\nunit.framework.xml
