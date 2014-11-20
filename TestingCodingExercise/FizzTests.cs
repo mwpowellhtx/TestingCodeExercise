@@ -27,19 +27,23 @@ namespace TestingCodingExercise
         }
 
         [Test]
-        [TestCase(1, 10, 3)]
-        public void Given0To4ShouldWriteFizzFor0And3(int start, int count, int expectedFizz)
+        [TestCase(1, 10, @"Fizz", 3)]
+        [TestCase(1, 10, @"Buzz", 2)]
+        public void VerifyThatModulusThreePrintsFizz(int start, int count,
+            string expectedText, int expectedCount)
         {
-            var provider = new FizzProvider();
+            var provider = new FizzProvider(
+                new FizzProviderEvaluator(),
+                new BuzzProviderEvaluator());
 
             provider.DoFizz(Enumerable.Range(start, count), _writer);
 
-            var actualFizz = _builder.ToString()
+            var actualCount = _builder.ToString()
                 .Split(new[] {'\r', '\n'}, StringSplitOptions.RemoveEmptyEntries)
                 .ToArray()
-                .Count(x => x.Equals(@"Fizz"));
+                .Count(x => x.Equals(expectedText));
 
-            Assert.That(actualFizz, Is.EqualTo(expectedFizz));
+            Assert.That(actualCount, Is.EqualTo(expectedCount));
         }
     }
 }

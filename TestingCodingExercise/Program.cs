@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace TestingCodingExercise
@@ -8,7 +7,12 @@ namespace TestingCodingExercise
     {
         static void Main(string[] args)
         {
-            var provider = new FizzProvider();
+            var provider = new FizzProvider(
+                new FizzProviderEvaluator(),
+                new BuzzProviderEvaluator(),
+                new FibonacciProviderEvaluator(),
+                new SquareRootProviderEvaluator());
+
             provider.DoFizz(Enumerable.Range(0, 100), Console.Out);
         }
     }

@@ -2,6 +2,18 @@
 	
 	
 	
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=75F8658F58DE4F118FCF22909B193164/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=75F8658F58DE4F118FCF22909B193164/Name/@EntryValue">Given0To4ShouldWriteFizzFor0And3(1,10,3)</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=75F8658F58DE4F118FCF22909B193164/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests" type="NUnitTestFixtureElement" Project="9DD2E892-5A04-4066-9789-0AF038CF99C2" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" ParentId="TestingCodingExercise.FizzTests" type="NUnitTestElement" TypeName="TestingCodingExercise.FizzTests" MethodName="VerifyThatModulusThreePrintsFizz" Project="9DD2E892-5A04-4066-9789-0AF038CF99C2" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz(1,10,&amp;quot;Buzz&amp;quot;,2)" ParentId="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" type="NUnitRowTestElement" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz(1,10,&amp;quot;Fizz&amp;quot;,3)" ParentId="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" type="NUnitRowTestElement" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String>
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B13470D29D9B44E8B17D7043A49C2CB4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B13470D29D9B44E8B17D7043A49C2CB4/Name/@EntryValue">Given0To4ShouldWriteFizzFor0And3(1,10,3)</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=B13470D29D9B44E8B17D7043A49C2CB4/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests" type="NUnitTestFixtureElement" Project="9DD2E892-5A04-4066-9789-0AF038CF99C2" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" ParentId="TestingCodingExercise.FizzTests" type="NUnitTestElement" TypeName="TestingCodingExercise.FizzTests" MethodName="VerifyThatModulusThreePrintsFizz" Project="9DD2E892-5A04-4066-9789-0AF038CF99C2" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz(1,10,&amp;quot;Buzz&amp;quot;,2)" ParentId="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" type="NUnitRowTestElement" /&gt;&lt;UnitTestElement Provider="nUnit" Id="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz(1,10,&amp;quot;Fizz&amp;quot;,3)" ParentId="TestingCodingExercise.FizzTests.VerifyThatModulusThreePrintsFizz" type="NUnitRowTestElement" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	
+	
+	
 	
 	
 	

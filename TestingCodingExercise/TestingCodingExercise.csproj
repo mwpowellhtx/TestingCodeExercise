@@ -44,11 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuzzProviderEvaluator.cs" />
+    <Compile Include="DefaultProviderEvaluator.cs" />
+    <Compile Include="FibonacciProviderEvaluator.cs" />
     <Compile Include="FizzProvider.cs" />
+    <Compile Include="FizzProviderEvaluator.cs" />
     <Compile Include="FizzTests.cs" />
     <Compile Include="IFizzProvider.cs" />
+    <Compile Include="IProviderEvaluator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SquareRootProviderEvaluator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
