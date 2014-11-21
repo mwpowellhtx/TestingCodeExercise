@@ -29,8 +29,8 @@ namespace TestingCodingExercise
         [Test]
         [TestCase(1, 10, @"Fizz", 3)]
         [TestCase(1, 10, @"Buzz", 2)]
-        public void VerifyThatModulusThreePrintsFizz(int start, int count,
-            string expectedText, int expectedCount)
+        public void VerifyThatFizzAndBuzzProviderEvaluatorsPrint(int start,
+            int count, string expectedText, int expectedCount)
         {
             var provider = new FizzProvider(
                 new FizzProviderEvaluator(),

@@ -44,17 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuzzProviderEvaluator.cs" />
-    <Compile Include="DefaultProviderEvaluator.cs" />
-    <Compile Include="FibonacciProviderEvaluator.cs" />
-    <Compile Include="FizzProvider.cs" />
-    <Compile Include="FizzProviderEvaluator.cs" />
-    <Compile Include="FizzTests.cs" />
-    <Compile Include="IFizzProvider.cs" />
-    <Compile Include="IProviderEvaluator.cs" />
+    <Compile Include="Tests\AbstractProviderEvaluatorTests.cs" />
+    <Compile Include="Evaluators\BuzzProviderEvaluator.cs" />
+    <Compile Include="Tests\BuzzProviderEvaluatorTests.cs" />
+    <Compile Include="Evaluators\DefaultProviderEvaluator.cs" />
+    <Compile Include="Tests\DefaultProviderEvaluatorTests.cs" />
+    <Compile Include="Evaluators\FibonacciProviderEvaluator.cs" />
+    <Compile Include="Providers\FizzProvider.cs" />
+    <Compile Include="Evaluators\FizzProviderEvaluator.cs" />
+    <Compile Include="Tests\FibonacciProviderEvaluatorTests.cs" />
+    <Compile Include="Tests\FizzProviderEvaluatorTests.cs" />
+    <Compile Include="Tests\FizzTests.cs" />
+    <Compile Include="Providers\IFizzProvider.cs" />
+    <Compile Include="Evaluators\IProviderEvaluator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SquareRootProviderEvaluator.cs" />
+    <Compile Include="Evaluators\SquareRootProviderEvaluator.cs" />
+    <Compile Include="Tests\SquareRootProviderEvaluatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

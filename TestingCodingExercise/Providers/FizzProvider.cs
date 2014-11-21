@@ -17,15 +17,6 @@ namespace TestingCodingExercise
             _evaluators = evaluators;
         }
 
-        private class DefaultProviderEvaluator : IProviderEvaluator
-        {
-            public bool TryEvaluate(int value, TextWriter writer)
-            {
-                writer.Write(value);
-                return true;
-            }
-        }
-
         public void DoFizz(IEnumerable<int> range, TextWriter writer)
         {
             var evaluator = new DefaultProviderEvaluator();
